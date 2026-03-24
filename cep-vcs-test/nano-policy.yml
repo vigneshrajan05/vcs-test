@@ -1,0 +1,15 @@
+kind: FreeFlowPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: nano-policy
+  namespace: cep-vcs-test
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  main:
+    - $ref: cep-vcs-test:invoke-nano-policy:1.0
+  monitoring:
+    $ref: cep-vcs-test:telemetry-nano-policy:1.0

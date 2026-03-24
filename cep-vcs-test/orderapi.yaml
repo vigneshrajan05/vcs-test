@@ -1,0 +1,13 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: OrderApi
+  version: '1.0'
+  namespace: cep-vcs-test
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./orderapi-spec.yml
+  policy-sequence:
+    - $ref: cep-vcs-test:nano-policy:1.0

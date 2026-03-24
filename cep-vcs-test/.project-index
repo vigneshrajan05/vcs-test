@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "0dea0127-7655-49d2-9ca6-91d185f601f4:0",
+      "projectId": "NvPqCcAd",
+      "filePath": "cep-vcs-test/orderapi.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1774337670653,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "OrderApi",
+      "namespace": "cep-vcs-test",
+      "version": "1.0",
+      "contentHash": "3ed84581345f17e9"
+    },
+    {
+      "id": "45bd4283-5cbf-4c72-a172-2fabf696ea5f:0",
+      "projectId": "NvPqCcAd",
+      "filePath": "cep-vcs-test/nano-policy.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1774337670271,
+      "schemaVersion": 1,
+      "kind": "FreeFlowPolicySequence",
+      "name": "nano-policy",
+      "namespace": "cep-vcs-test",
+      "version": "1.0",
+      "contentHash": "9496349d86aae8c1"
+    },
+    {
+      "id": "563eb17f-5e70-4bdd-aa9b-717080eada6b:0",
+      "projectId": "NvPqCcAd",
+      "filePath": "cep-vcs-test/invoke-nano-policy.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1774337676035,
+      "schemaVersion": 1,
+      "kind": "Invoke",
+      "name": "invoke-nano-policy",
+      "namespace": "cep-vcs-test",
+      "version": "1.0",
+      "contentHash": "dd949e9afa0221eb"
+    },
+    {
+      "id": "7d57c910-0d14-4a17-8f5d-d87179550dd6:0",
+      "projectId": "NvPqCcAd",
+      "filePath": "cep-vcs-test/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1774337778915,
+      "schemaVersion": 1
+    },
+    {
+      "id": "a57f3c12-5a0a-4edc-ad83-cd6223876787:0",
+      "projectId": "NvPqCcAd",
+      "filePath": "cep-vcs-test/orderapi-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1774337642186,
+      "schemaVersion": 1
+    },
+    {
+      "id": "deac628b-3b21-4d86-85be-095ff45c0e86:0",
+      "projectId": "NvPqCcAd",
+      "filePath": "cep-vcs-test/telemetry-nano-policy.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1774337670165,
+      "schemaVersion": 1,
+      "kind": "Telemetry",
+      "name": "telemetry-nano-policy",
+      "namespace": "cep-vcs-test",
+      "version": "1.0",
+      "contentHash": "1a68f9c72e96ce1e"
+    }
+  ],
+  "edges": [
+    {
+      "id": "36cfa1f3-3387-471b-bff0-90b69e93713f",
+      "projectId": "NvPqCcAd",
+      "sourceNodeId": "45bd4283-5cbf-4c72-a172-2fabf696ea5f:0",
+      "targetNodeId": "563eb17f-5e70-4bdd-aa9b-717080eada6b:0",
+      "targetRefType": "same-project",
+      "targetRefString": "cep-vcs-test:invoke-nano-policy:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1774337670280,
+      "lastValidated": 1774337676041
+    },
+    {
+      "id": "80046d29-c095-43db-9c51-196ffa23f117",
+      "projectId": "NvPqCcAd",
+      "sourceNodeId": "0dea0127-7655-49d2-9ca6-91d185f601f4:0",
+      "targetNodeId": "45bd4283-5cbf-4c72-a172-2fabf696ea5f:0",
+      "targetRefType": "same-project",
+      "targetRefString": "cep-vcs-test:nano-policy:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1774337670660,
+      "lastValidated": 1774337670660
+    },
+    {
+      "id": "82ad21bc-47aa-4c6c-a50f-b72764b0f1e1",
+      "projectId": "NvPqCcAd",
+      "sourceNodeId": "45bd4283-5cbf-4c72-a172-2fabf696ea5f:0",
+      "targetNodeId": "deac628b-3b21-4d86-85be-095ff45c0e86:0",
+      "targetRefType": "same-project",
+      "targetRefString": "cep-vcs-test:telemetry-nano-policy:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1774337670280,
+      "lastValidated": 1774337670280
+    },
+    {
+      "id": "c20f46db-06fb-46b3-ad2f-fc8bab4a282d",
+      "projectId": "NvPqCcAd",
+      "sourceNodeId": "0dea0127-7655-49d2-9ca6-91d185f601f4:0",
+      "targetNodeId": "a57f3c12-5a0a-4edc-ad83-cd6223876787:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./orderapi-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1774337642347,
+      "lastValidated": 1774337642347
+    }
+  ]
+}

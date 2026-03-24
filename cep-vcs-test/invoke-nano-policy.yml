@@ -1,0 +1,22 @@
+kind: Invoke
+apiVersion: api.ibm.com/v1
+metadata:
+  name: invoke-nano-policy
+  namespace: cep-vcs-test
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  endpoint:
+    http:
+      verb: CUSTOM
+      target:
+        persistentConnections: false
+        timeout: 30
+        url: ''
+        decompressResponse: false
+        followRedirects: false
+        chunkedUpload: false
+  input: inputMessage1
