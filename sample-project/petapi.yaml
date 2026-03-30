@@ -1,0 +1,13 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: petApi
+  version: 1.0.25
+  namespace: sample-project
+  tags:
+    - petstore
+    - oai-3.0.4
+  type: REST
+spec:
+  api-spec:
+    $path: ./petapi-spec.json
