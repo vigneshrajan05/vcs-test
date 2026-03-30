@@ -4,10 +4,10 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1773238419912
-  sample-project:
+  sample-test-project:
     id: LdWgXUsx
     description: this is a sample project
     tags:
       - sample
       - pet
-    lastUpdated: 1774847084977
+    lastUpdated: 1774847221452
