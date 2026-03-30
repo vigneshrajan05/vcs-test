@@ -7,5 +7,7 @@ projects:
   sample-project:
     id: LdWgXUsx
     description: this is a sample project
-    tags: []
-    lastUpdated: 1774846978568
+    tags:
+      - sample
+      - pet
+    lastUpdated: 1774847084977
