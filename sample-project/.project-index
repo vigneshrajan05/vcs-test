@@ -15,6 +15,15 @@
       "contentHash": "da976407d4133e93"
     },
     {
+      "id": "35085cab-073e-4522-ae77-4ae821854b5b:0",
+      "projectId": "LdWgXUsx",
+      "filePath": "sample-project/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1774847117601,
+      "schemaVersion": 1
+    },
+    {
       "id": "da3680db-91b9-4c3b-bb73-55e0c5c2df35:0",
       "projectId": "LdWgXUsx",
       "filePath": "sample-project/petapi-spec.json",
