@@ -1,7 +1,7 @@
 openapi: 3.0.4
 info:
   title: OrderApi
-  version: '1.0'
+  version: '2.0'
   description: this is a dummy description
 paths: {}
 servers:
