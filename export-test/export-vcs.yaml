@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: export-vcs
+  version: '1.0'
+  namespace: export-test
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./export-vcs-spec.yml

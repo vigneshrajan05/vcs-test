@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "0a8cea48-8717-4cfd-aa35-b1c19b02aa7b:0",
+      "projectId": "hyZE7uIX",
+      "filePath": "export-test/export-vcs.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1778223576302,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "export-vcs",
+      "namespace": "export-test",
+      "version": "1.0",
+      "contentHash": "f2a3b1a62d5ab6c6"
+    },
+    {
+      "id": "19bd4d80-06d3-4191-98f3-f571ca5eeae8:0",
+      "projectId": "hyZE7uIX",
+      "filePath": "export-test/export-vcs-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1778223575472,
+      "schemaVersion": 1
+    },
+    {
+      "id": "2796aeae-1b5d-40fe-87ad-a09201baa754:0",
+      "projectId": "hyZE7uIX",
+      "filePath": "export-test/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1778223554524,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "4f7ac909-1003-40f2-a779-e1230478ba6e",
+      "projectId": "hyZE7uIX",
+      "sourceNodeId": "0a8cea48-8717-4cfd-aa35-b1c19b02aa7b:0",
+      "targetNodeId": "19bd4d80-06d3-4191-98f3-f571ca5eeae8:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./export-vcs-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1778223576304,
+      "lastValidated": 1778223576304
+    }
+  ]
+}
