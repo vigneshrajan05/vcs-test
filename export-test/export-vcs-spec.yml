@@ -2,5 +2,5 @@ openapi: 3.0.4
 info:
   title: export-vcs
   version: '1.0'
-  description: ''
+  description: This is a sample description.
 paths: {}
