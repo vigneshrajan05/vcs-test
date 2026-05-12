@@ -33,3 +33,11 @@ projects:
       - DataPower API Gateway
       - quota-limiting
     lastUpdated: 1777541089517
+  DPNano_Product_Weather:
+    id: o0gy5OSG
+    description: Authenticated Weather API with Products and Plans having unlimited quota.
+    tags:
+      - DataPower Nano Gateway
+      - weather-api
+      - authentication
+    lastUpdated: 1778580529903
