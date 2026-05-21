@@ -25,7 +25,7 @@ projects:
     id: hyZE7uIX
     description: ''
     tags: []
-    lastUpdated: 1778227280736
+    lastUpdated: 1778587608529
   DPv6_Product_Weather:
     id: C4mQHa2D
     description: Weather API with Product and Plans having quota limitations.
@@ -34,10 +34,10 @@ projects:
       - quota-limiting
     lastUpdated: 1777541089517
   DPNano_Product_Weather:
-    id: o0gy5OSG
+    id: DImTXImS
     description: Authenticated Weather API with Products and Plans having unlimited quota.
     tags:
       - DataPower Nano Gateway
       - weather-api
       - authentication
-    lastUpdated: 1778580529903
+    lastUpdated: 1779338448211
