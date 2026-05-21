@@ -15,12 +15,7 @@ projects:
     id: OQ2GUVOR
     description: ''
     tags: []
-    lastUpdated: 1777032565727
-  vcs-1:
-    id: xfapnTPi
-    description: ''
-    tags: []
-    lastUpdated: 1777032569283
+    lastUpdated: 1779350876507
   export-test:
     id: hyZE7uIX
     description: ''
@@ -40,4 +35,4 @@ projects:
       - DataPower Nano Gateway
       - weather-api
       - authentication
-    lastUpdated: 1779338448211
+    lastUpdated: 1779358063301
