@@ -3,11 +3,13 @@ apiVersion: api.ibm.com/v1
 metadata:
   name: singapore-temperature-api
   version: '1'
-  namespace: singapore-temperature-apis
+  namespace: singapore-temperature-api
+  description: >-
+    Singapore Air Temperature API proxy using data from NEA via DataPower Nano
+    Gateway
   tags:
     - environment
     - temperature
-  type: REST
 spec:
   api-spec:
     $path: ../spec/TemperatureApi-spec.yml
