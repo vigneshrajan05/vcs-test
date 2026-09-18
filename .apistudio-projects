@@ -11,3 +11,12 @@ projects:
       - sample
       - pet
     lastUpdated: 1774847221452
+  singapore-temperature-api:
+    id: wssCf8g0
+    description: >-
+      Singapore Air Temperature API proxy using data from NEA via DataPower Nano
+      Gateway
+    tags:
+      - environment
+      - temperature
+    lastUpdated: 1789715009156
